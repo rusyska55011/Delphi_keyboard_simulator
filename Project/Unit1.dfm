@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 480
+  Top = 155
+  Width = 1216
+  Height = 604
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 304
+    Top = 104
+    Width = 578
+    Height = 58
+    Caption = #1050#1083#1072#1074#1080#1072#1090#1091#1088#1085#1099#1081' '#1090#1088#1077#1085#1072#1078#1077#1088
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -50
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 480
+    Top = 216
+    Width = 202
+    Height = 25
+    Caption = #1042#1099#1073#1077#1088#1080#1090#1077' '#1089#1083#1086#1078#1085#1086#1089#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 512
+    Top = 464
+    Width = 4
+    Height = 20
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 328
+    Top = 368
+    Width = 529
+    Height = 73
+    Caption = #1053#1072#1095#1072#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -30
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object RadioButton1: TRadioButton
+    Left = 336
+    Top = 272
+    Width = 137
+    Height = 57
+    Caption = #1051#1077#1075#1082#1072#1103
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -30
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton2: TRadioButton
+    Left = 504
+    Top = 272
+    Width = 153
+    Height = 57
+    Caption = #1057#1088#1077#1076#1085#1103#1103
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -30
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object RadioButton3: TRadioButton
+    Left = 688
+    Top = 272
+    Width = 161
+    Height = 57
+    Caption = #1058#1103#1078#1077#1083#1072#1103
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -30
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 1136
+    Top = 16
+    Width = 49
+    Height = 33
+    Caption = #1042#1099#1093#1086#1076
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+end
